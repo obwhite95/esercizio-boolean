@@ -1,0 +1,120 @@
+
+.page-dimension{
+ height: 100%;
+ width: 100%;
+ min-width: 100%;
+ min-height: 100%;
+ max-width: 100%;
+ max-height: 100%;
+}
+
+
+
+
+.background{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: clamp(65rem,100vw,200rem);
+  padding:5%;
+}
+
+.container-background{
+ margin-left: 20%;
+ margin-right: 20%;
+ margin-top: 3%;
+ margin-bottom: 10%;
+ max-width: 70%;
+ max-height: 70%;
+ min-width: 70%;
+ min-height: 60%;
+ background-color: rgba(0, 0, 0, 0.5);
+ min-width: 70%;
+ background-size: clamp(70rem,100vw,200rem);
+}
+
+
+.container{
+  text-align: left;
+  padding: 5%;
+  display: contents;
+}
+
+
+.logo-e-title{
+ color: rgb(0, 230, 0);
+ text-align: center;
+ padding-top: 6%;
+ font-size:clamp(0.5rem, 2.5vw, 2rem);
+ font-family: 'Supermercado One', cursive;
+ font-weight: 900;
+}
+
+
+
+
+.contenitore-main{
+ margin-right: 4%;
+ padding-bottom: 6%;
+
+}
+
+.barra-prenotazione{
+  background-color: rgb(0, 230, 0);
+  padding:15px;
+  min-width: 50%;
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+
+
+}
+
+.monopattini{
+  color: white;
+  margin: 35px;
+}
+
+
+.span-title{
+  font-size:clamp(0.5rem, 2.5vw, 2rem);
+  font-display: auto;
+  font-weight:  900;
+  font-family: 'Supermercado One', cursive;
+}
+
+.carica-gino{
+  background-color: orange;
+  padding: 15px;
+  max-width: 35%;
+  min-width: 35%;
+  border-radius: 5%;
+
+}
+
+.carica-mike24{
+ background-color:rgb(0, 230, 0);
+ padding: 15px;
+ width: 55%;
+ min-width: 55%;
+ border-radius: 5%;
+
+}
+
+.carica-Fede154{
+ background-color: red;
+ padding: 15px;
+ width: 10%;
+ min-width: 5%;
+ border-radius: 8%;
+}
+
+#testo{
+  font-size:clamp(0.5rem, 1.5vw, 2.0rem);
+}
+
+#input-title{
+  font-weight: 900;
+  font-family: 'Supermercado One', cursive;
+  font-size:clamp(0.5rem, 2.5vw, 2rem);
+}
